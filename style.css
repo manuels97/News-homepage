@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+    
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    padding-bottom: 40px;
+}
+
+nav{
+    width: 100vh;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+}
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: grey;
+}
+
+li a:hover{
+    color: orange;
+}
+
+
+.principal{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 30% 30% 31%;
+    grid-template-rows: 50% 50%;
+}
+
+
+#img-central{
+    width: 650px;
+    height: 180px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.subt{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.read{
+    font-size: 13px;
+    color: grey;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 10px 35px 10px 35px;
+    
+    
+}
+
+.asid{
+    padding: 10px;
+    background-color: black;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.asid div {
+    padding-top: 35px;
+}
+
+.asid h1{
+    color: yellow;
+}
+.asid div p{
+    color: grey;
+}
+
+.asid div a{
+    
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.asid div a:hover{
+    color: yellow;
+}
+
+.img-foot{
+    width: 70px;
+    height: 100px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot div{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 40% 40%;
+}
+
+.foot div img{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.foot div span{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: grey;
+    
+}
+
+.foot div h4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+.foot div h4:hover{
+    color: orange;
+    
+}
+
+.foot div p{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 12px;
+    
+}
